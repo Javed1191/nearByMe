@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Near By Me</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="branch">Branch</string>
+    <string name="atm">ATM</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyA3suqzb4fjNgZ5J35x5b5hXjzhIBOKIfc
+    </string>
+
+    <string name="list_view">List View</string>
+    <string name="map_view">Map View</string>
+    <string name="ar_view">AR View</string>
+
+    <string name="search_atms_branches">Search ATMs/ Branches</string>
+</resources>

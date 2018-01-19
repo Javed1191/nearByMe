@@ -1,0 +1,145 @@
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:card_view="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical">
+        <RelativeLayout
+        android:id="@+id/lay_5km"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+            <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_location_marker"
+            android:visibility="invisible"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+        android:id="@+id/layut_4_5km"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_location_marker"
+            android:visibility="invisible"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+        android:id="@+id/lay_4km"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_location_marker"
+            android:visibility="invisible"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+        android:id="@+id/layut_3_5km"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_location_marker"
+            android:visibility="invisible"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+        android:id="@+id/lay_3km"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_location_marker"
+            android:visibility="invisible"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+        android:id="@+id/layut_2_5km"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_location_marker"
+            android:visibility="invisible"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+        android:id="@+id/lay_2km"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_location_marker"
+            android:visibility="invisible"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+        android:id="@+id/layut_1_5km"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_location_marker"
+            android:visibility="invisible"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+        android:id="@+id/lay_1km"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_location_marker"
+            android:visibility="invisible"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+        android:id="@+id/layut_0_5km"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_location_marker"
+            android:visibility="invisible"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/scale_lay_back"
+    android:padding="10dp">
+
+        <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="5"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center"
+android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary">
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal">
+            <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"/>
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+    android:id="@+id/arViewContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/toolbar"/>
+    <!-- android:progressDrawable="@android:color/transparent"  -->
+    <SeekBar android:id="@+id/seekBar" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:progressDrawable="@android:color/transparent"
+    android:layout_alignParentBottom="true"/>
+   
+     <views.ScaleView
+     android:id="@+id/scaleView"
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_above="@id/seekBar"/>
+     
+   	<TextView 
+    android:id="@+id/txtNote"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:gravity="center" 
+    android:textColor="#50FFFFFF"
+    android:layout_above="@id/scaleView"
+    android:paddingBottom="5dp"
+    android:text="Distance in km"/>
+   	<RelativeLayout
+   	android:id="@+id/lytUpper" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:layout_above="@id/txtNote"/>
+</RelativeLayout>
